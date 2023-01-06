@@ -8,7 +8,8 @@ const app = new Application()
 app.static('/', 'public')
   .file('/', 'public/livepowerfully.xyz/index.html')
   .file('/livepowerfully.xyz', 'public/livepowerfully.xyz/index.html')
-  .start({ port: 8080 })
+// .start({ port: 8080 })
+  .start()
 
 
 
