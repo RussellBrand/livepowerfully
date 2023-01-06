@@ -6,3 +6,6 @@ deploy:
 	git push
 
 
+check:
+	deno lint main.ts
+	deno check main.ts
