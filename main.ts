@@ -15,9 +15,17 @@ serve(handleRequest, { port: 8080 })
 function handleRequest(request: Request): Promise<Response> {
     
 // Get and adjust the requested path name
-    let { pathname } = new URL(request.url); // get the path name
+  let { pathname } = new URL(request.url); // get the path name
+  
+  
+
+  if (pathname === '/'){
+    console.log("mark")
+  }
+
     if (pathname === '/') pathname = '/index.html'; // fix root
-    
+  
+  
     // make a request full-path
     const fullPath = join( PUBLIC_DIR + pathname);
 
