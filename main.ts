@@ -4,7 +4,9 @@ import { serveFile } from "https://deno.land/std@0.170.0/http/file_server.ts"
 
 console.log("RLB STARTING...")
 
-const PUBLIC_DIR = Deno.cwd() + "/public/livepowerfully.xyz/"
+// const PUBLIC_DIR = Deno.cwd() + "/public/livepowerfully.xyz/"
+
+const PUBLIC_DIR = Deno.cwd() + "/public/"
 
 console.log("PUBLIC_DIR", PUBLIC_DIR)
 
@@ -18,6 +20,7 @@ function handleRequest(request: Request): Promise<Response> {
   let { pathname } = new URL(request.url); // get the path name
   
   
+  console.log({pathname});
 
   if (pathname === '/'){
     console.log("mark")
