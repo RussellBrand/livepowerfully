@@ -1,0 +1,2500 @@
+/* line 3, ../sass/estilos.scss */
+#main-header {
+  background: #333;
+  min-width: 75px !important;
+  transition: all ease-in-out .4s;
+  overflow: hidden;
+  max-width: 75px !important;
+}
+
+/* line 11, ../sass/estilos.scss */
+#main-header:hover {
+  min-width: 225px !important;
+  max-width: 225px !important;
+}
+
+/* line 16, ../sass/estilos.scss */
+#ordem_block.attivo {
+  margin-bottom: 166px !important;
+}
+
+/* line 20, ../sass/estilos.scss */
+.traction_btn {
+  background: url(/wp-content/uploads/2018/03/logo-traction.png);
+  width: 75px;
+  display: block;
+  height: 75px;
+  background-size: 74px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  position: absolute;
+  bottom: 37px;
+  opacity: 0.8;
+}
+/* line 31, ../sass/estilos.scss */
+.traction_btn:hover {
+  opacity: 1;
+}
+/* line 34, ../sass/estilos.scss */
+.traction_btn span {
+  color: #fff;
+  display: block;
+  width: 230px;
+  margin: 31px 0 0 79px;
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* ******************** GLOBAL ******************** */
+/* line 47, ../sass/estilos.scss */
+.desktop_elemento {
+  display: block;
+}
+
+/* line 51, ../sass/estilos.scss */
+.mobile_elemento {
+  display: none;
+}
+
+/* ******************** GLOBAL ******************** */
+/* line 57, ../sass/estilos.scss */
+.et_vertical_nav #main-header .container {
+  overflow: hidden;
+}
+
+/* line 61, ../sass/estilos.scss */
+.et_vertical_nav #et-main-area, .et_vertical_nav #top-header {
+  margin-left: 75px !important;
+}
+
+/* line 65, ../sass/estilos.scss */
+#categorias-menu {
+  min-width: 1080px;
+}
+
+/* line 69, ../sass/estilos.scss */
+#main-header #top-menu > li > a {
+  color: #fff;
+}
+
+/* line 73, ../sass/estilos.scss */
+/*
+#global_post_text iframe[src^="https://www.youtube.com/embed/"] {
+  display: block;
+  margin: 30px auto;
+  border: solid 7px #fff;
+  box-shadow: 0px 0px 3px 3px #ccc;
+  border-radius: 6px;
+}
+*/
+
+/* line 82, ../sass/estilos.scss */
+#team_page.et_pb_section {
+  padding: 0 0;
+}
+/* line 85, ../sass/estilos.scss */
+#team_page .et_pb_row.et_pb_row_0.et_pb_row_fullwidth {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0px !important;
+}
+
+/* line 92, ../sass/estilos.scss */
+.team_block {
+  text-align: center;
+}
+/* line 94, ../sass/estilos.scss */
+.team_block img {
+  border-radius: 100px;
+}
+
+/* line 99, ../sass/estilos.scss */
+.out_story.cover {
+  background: url(/wp-content/uploads/2018/02/history.png);
+  margin: 0 0 0 0;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  height: 450px;
+  background-position: 0;
+  position: relative;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+/* line 111, ../sass/estilos.scss */
+.out_story.cover:after {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+/* line 119, ../sass/estilos.scss */
+.out_story.cover h1 {
+  font-family: "Lato-Thin", Arial, Helvetica;
+  font-size: 80px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: normal;
+  text-align: center;
+  margin: -30px 0 0 -275px;
+  width: 550px;
+  z-index: 111;
+}
+
+/* --------------------------------- Estado Ativo MOVE --------------------------------- */
+/* line 137, ../sass/estilos.scss */
+.move-main-menu .menu_principal_ativo {
+  background: #99ff99 !important;
+  color: #389e57 !important;
+  border-color: #99ff99 !important;
+}
+
+/* line 143, ../sass/estilos.scss */
+#move-powerfully.sprint_page #legenda_integrada_0,
+#move-powerfully.run_page #legenda_integrada_1,
+#move-powerfully.walk_page #legenda_integrada_1,
+#move-powerfully.jump_page #legenda_integrada_1,
+#move-powerfully.grip_page #legenda_integrada_2,
+#move-powerfully.climb_page #legenda_integrada_2,
+#move-powerfully.stand_page #legenda_integrada_2,
+#move-powerfully.throw_page #legenda_integrada_2,
+#move-powerfully.squat_page #legenda_integrada_3,
+#move-powerfully.stretch_page #legenda_integrada_3,
+#move-powerfully.sit_page #legenda_integrada_3,
+#move-powerfully.crawl_page #legenda_integrada_3,
+#move-powerfully.range_page #legenda_integrada_4,
+#move-powerfully.posture_page #legenda_integrada_4,
+#move-powerfully.foundation_page #legenda_integrada_4,
+#move-powerfully.stretch_page #quartos2_2,
+#move-powerfully.sit_page #quartos2_3,
+#move-powerfully.climb_page #secondary_3,
+#move-powerfully.stand_page #secondary_4,
+#move-powerfully.range_page #sozinhas_move_1,
+#move-powerfully.posture_page #sozinhas_move_2,
+#move-powerfully.foundation_page #sozinhas_move_3 {
+  background: #99ff99 !important;
+  color: #389e57 !important;
+}
+/* line 170, ../sass/estilos.scss */
+#move-powerfully.sprint_page #legenda_integrada_0 span,
+#move-powerfully.run_page #legenda_integrada_1 span,
+#move-powerfully.walk_page #legenda_integrada_1 span,
+#move-powerfully.jump_page #legenda_integrada_1 span,
+#move-powerfully.grip_page #legenda_integrada_2 span,
+#move-powerfully.climb_page #legenda_integrada_2 span,
+#move-powerfully.stand_page #legenda_integrada_2 span,
+#move-powerfully.throw_page #legenda_integrada_2 span,
+#move-powerfully.squat_page #legenda_integrada_3 span,
+#move-powerfully.stretch_page #legenda_integrada_3 span,
+#move-powerfully.sit_page #legenda_integrada_3 span,
+#move-powerfully.crawl_page #legenda_integrada_3 span,
+#move-powerfully.range_page #legenda_integrada_4 span,
+#move-powerfully.posture_page #legenda_integrada_4 span,
+#move-powerfully.foundation_page #legenda_integrada_4 span,
+#move-powerfully.stretch_page #quartos2_2 span,
+#move-powerfully.sit_page #quartos2_3 span,
+#move-powerfully.climb_page #secondary_3 span,
+#move-powerfully.stand_page #secondary_4 span,
+#move-powerfully.range_page #sozinhas_move_1 span,
+#move-powerfully.posture_page #sozinhas_move_2 span,
+#move-powerfully.foundation_page #sozinhas_move_3 span {
+  color: #389e57 !important;
+}
+
+/* line 175, ../sass/estilos.scss */
+#move-powerfully.sprint_page #triangulo_move,
+#move-powerfully.run_page #translation_2,
+#move-powerfully.walk_page #translation_3,
+#move-powerfully.jump_page #secondary_1,
+#move-powerfully.grip_page #quartos2_4,
+#move-powerfully.throw_page #secondary_5,
+#move-powerfully.squat_page #quartos2_1,
+#move-powerfully.crawl_page #secondary_2 {
+  border-bottom-color: #99ff99 !important;
+  color: #389e57 !important;
+}
+/* line 186, ../sass/estilos.scss */
+#move-powerfully.sprint_page #triangulo_move span,
+#move-powerfully.run_page #translation_2 span,
+#move-powerfully.walk_page #translation_3 span,
+#move-powerfully.jump_page #secondary_1 span,
+#move-powerfully.grip_page #quartos2_4 span,
+#move-powerfully.throw_page #secondary_5 span,
+#move-powerfully.squat_page #quartos2_1 span,
+#move-powerfully.crawl_page #secondary_2 span {
+  color: #389e57 !important;
+}
+
+/* --------------------------------- Estado Ativo MOVE --------------------------------- */
+/* --------------------------------- Estado Ativo WORK --------------------------------- */
+/* line 196, ../sass/estilos.scss */
+.work-main-menu .menu_principal_ativo {
+  background: #99ffff !important;
+  color: #5286b4 !important;
+  border-color: #99ffff !important;
+}
+
+/* line 202, ../sass/estilos.scss */
+#live-powerfully.energy-atp #legenda_live_1,
+#live-powerfully.mitochondria_page #legenda_live_2,
+#live-powerfully.endurance_page #legenda_live_3,
+#live-powerfully.strength_page #legenda_live_3,
+#live-powerfully.sun_page #legenda_live_3,
+#live-powerfully.nature_page #legenda_live_3,
+#live-powerfully.nutrition_page #legenda_live_3,
+#live-powerfully.microbes_page #legenda_live_3,
+#live-powerfully.sleep_page #legenda_live_3,
+#live-powerfully.hydration_page #legenda_live_3,
+#live-powerfully.glucose_page #legenda_live_4,
+#live-powerfully.fat_page #legenda_live_4,
+#live-powerfully.protein_page #legenda_live_4,
+#live-powerfully.CARBOHYDRATES_page #legenda_live_4,
+#live-powerfully.glucose_page #triangulo_live_11,
+#live-powerfully.fat_page #triangulo_live_12,
+#live-powerfully.protein_page #triangulo_live_13,
+#live-powerfully.CARBOHYDRATES_page #triangulo_live_14 {
+  background: #9fd1ff !important;
+  color: #6390ba !important;
+}
+/* line 225, ../sass/estilos.scss */
+#live-powerfully.energy-atp #legenda_live_1 span,
+#live-powerfully.mitochondria_page #legenda_live_2 span,
+#live-powerfully.endurance_page #legenda_live_3 span,
+#live-powerfully.strength_page #legenda_live_3 span,
+#live-powerfully.sun_page #legenda_live_3 span,
+#live-powerfully.nature_page #legenda_live_3 span,
+#live-powerfully.nutrition_page #legenda_live_3 span,
+#live-powerfully.microbes_page #legenda_live_3 span,
+#live-powerfully.sleep_page #legenda_live_3 span,
+#live-powerfully.hydration_page #legenda_live_3 span,
+#live-powerfully.glucose_page #legenda_live_4 span,
+#live-powerfully.fat_page #legenda_live_4 span,
+#live-powerfully.protein_page #legenda_live_4 span,
+#live-powerfully.CARBOHYDRATES_page #legenda_live_4 span,
+#live-powerfully.glucose_page #triangulo_live_11 span,
+#live-powerfully.fat_page #triangulo_live_12 span,
+#live-powerfully.protein_page #triangulo_live_13 span,
+#live-powerfully.CARBOHYDRATES_page #triangulo_live_14 span {
+  color: #6390ba !important;
+}
+
+/* line 230, ../sass/estilos.scss */
+#live-powerfully.energy-atp #triangulo_live,
+#live-powerfully.mitochondria_page #triangulo_live_2,
+#live-powerfully.endurance_page #triangulo_live_3,
+#live-powerfully.strength_page #triangulo_live_4,
+#live-powerfully.sun_page #triangulo_live_5,
+#live-powerfully.nature_page #triangulo_live_6,
+#live-powerfully.nutrition_page #triangulo_live_7,
+#live-powerfully.microbes_page #triangulo_live_8,
+#live-powerfully.sleep_page #triangulo_live_9,
+#live-powerfully.hydration_page #triangulo_live_10 {
+  border-bottom-color: #9fd1ff !important;
+  color: #6390ba !important;
+}
+/* line 244, ../sass/estilos.scss */
+#live-powerfully.energy-atp #triangulo_live span,
+#live-powerfully.mitochondria_page #triangulo_live_2 span,
+#live-powerfully.endurance_page #triangulo_live_3 span,
+#live-powerfully.strength_page #triangulo_live_4 span,
+#live-powerfully.sun_page #triangulo_live_5 span,
+#live-powerfully.nature_page #triangulo_live_6 span,
+#live-powerfully.nutrition_page #triangulo_live_7 span,
+#live-powerfully.microbes_page #triangulo_live_8 span,
+#live-powerfully.sleep_page #triangulo_live_9 span,
+#live-powerfully.hydration_page #triangulo_live_10 span {
+  color: #6390ba !important;
+}
+
+/* --------------------------------- Estado Ativo WORK --------------------------------- */
+/* --------------------------------- Estado Ativo THINK --------------------------------- */
+/* line 254, ../sass/estilos.scss */
+.think-main-menu .menu_principal_ativo {
+  background: #fe98fe !important;
+  color: #a23ea2 !important;
+  border-color: #fe98fe !important;
+}
+
+/* line 260, ../sass/estilos.scss */
+#think_powerfully_page.subconscious_competence #legenda_think_1,
+#think_powerfully_page.learning_page #legenda_think_2,
+#think_powerfully_page.think_skills-and_habits #legenda_think_3,
+#think_powerfully_page.think_mood #legenda_think_3,
+#think_powerfully_page.think_stress #legenda_think_3,
+#think_powerfully_page.think_movement #legenda_think_3,
+#think_powerfully_page.think_posture #legenda_think_3,
+#think_powerfully_page.think_hydration #legenda_think_3,
+#think_powerfully_page.think_sleep #legenda_think_3,
+#think_powerfully_page.think_fitness #legenda_think_4,
+#think_powerfully_page.think_fitness #triangulo_think_12,
+#think_powerfully_page.think_mobility #legenda_think_4,
+#think_powerfully_page.think_mobility #triangulo_think_13 {
+  background: #fe98fe !important;
+  color: #fff !important;
+}
+
+/* line 278, ../sass/estilos.scss */
+#think_powerfully_page.subconscious_competence .triangulo_think,
+#think_powerfully_page.learning_page #triangulo_think_2,
+#think_powerfully_page.think_skills-and_habits #triangulo_think_3,
+#think_powerfully_page.think_mood #triangulo_think_4,
+#think_powerfully_page.think_stress #triangulo_think_5,
+#think_powerfully_page.think_movement #triangulo_think_6,
+#think_powerfully_page.think_posture #triangulo_think_7,
+#think_powerfully_page.think_hydration #triangulo_think_8,
+#think_powerfully_page.think_sleep #triangulo_think_9 {
+  color: #fff !important;
+  border-bottom-color: #fe98fe !important;
+}
+
+/* line 292, ../sass/estilos.scss */
+#think_powerfully_page.subconscious_competence .triangulo_think span,
+#think_powerfully_page.learning_page #triangulo_think_2 span,
+#think_powerfully_page.think_skills-and_habits #triangulo_think_3 span,
+#think_powerfully_page.think_mood #triangulo_think_4 span,
+#think_powerfully_page.think_stress #triangulo_think_5 span,
+#think_powerfully_page.think_movement #triangulo_think_6 span,
+#think_powerfully_page.think_posture #triangulo_think_7 span,
+#think_powerfully_page.think_hydration #triangulo_think_8 span,
+#think_powerfully_page.think_sleep #triangulo_think_9 span,
+#think_powerfully_page.think_fitness #triangulo_think_12 span,
+#think_powerfully_page.think_mobility #triangulo_think_13 span {
+  color: #fff !important;
+}
+
+/* --------------------------------- Estado Ativo THINK --------------------------------- */
+/* line 309, ../sass/estilos.scss */
+.move_powerfully_ergonomics #menu_move_ergonomics,
+.move_powerfully_1st #menu_move_1,
+.move_powerfully_2nd #menu_move_2,
+.move_powerfully_engine #menu_move_engine,
+.move_powerfully_mobility #menu_move_mobility {
+  background: #99ff99;
+  color: #389e57;
+  border-color: #99ff99;
+}
+
+/* line 319, ../sass/estilos.scss */
+.think_powerfully_body #menu_think_mind,
+.think_powerfully_foundation #menu_think_foundation,
+.think_powerfully_engine #menu_think_engine,
+.think_powerfully_neuro #menu_think_neuro {
+  color: #9f319f;
+  background: #fe98fe;
+}
+
+/* line 327, ../sass/estilos.scss */
+.page_title {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 35px;
+  margin: 0 0 -10px 0;
+  color: #fff;
+}
+
+/* line 337, ../sass/estilos.scss */
+.page_title .move_color, .page_title .work_color, .page_title .think_color {
+  display: inline-block;
+}
+
+/* line 341, ../sass/estilos.scss */
+#menu_left {
+  display: inline-block;
+  margin: 0;
+  float: left;
+  text-align: left;
+}
+
+/* line 348, ../sass/estilos.scss */
+.move_color {
+  color: #99ff99;
+}
+
+/* line 351, ../sass/estilos.scss */
+.work_color {
+  color: #99ffff;
+}
+
+/* line 354, ../sass/estilos.scss */
+.think_color {
+  color: #fe98fe;
+}
+
+/* line 358, ../sass/estilos.scss */
+div#login_page {
+  background: #0cebeb;
+  background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+  background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+}
+/* line 362, ../sass/estilos.scss */
+div#login_page .um-form {
+  background: #fff;
+  padding: 30px 38px 40px 38px;
+  box-shadow: 1px 1px 5px 2px #349a97;
+}
+
+/* line 370, ../sass/estilos.scss */
+#main-content .et_pb_text_inner h1.tagLine span strong {
+  font-size: 42px;
+  letter-spacing: -3px;
+}
+
+/* line 375, ../sass/estilos.scss */
+/*
+.video_youtube {
+  border: solid 7px #fff;
+  box-shadow: 0px 0px 3px 3px #ccc;
+  border-radius: 6px;
+}
+*/
+
+/* line 382, ../sass/estilos.scss */
+#home_post_wrap {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* line 387, ../sass/estilos.scss */
+#home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_7 {
+  background: none;
+  padding: 0;
+  box-sizing: border-box;
+  max-height: none;
+  overflow: hidden;
+  z-index: 3;
+  min-height: 0;
+  height: auto;
+  margin: 3% 0% 30px 7%;
+  width: 26.3%;
+}
+
+/* line 399, ../sass/estilos.scss */
+#home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_7 article {
+  background: #d4ffd4;
+  box-shadow: 1px 1px 2px -1px #ccc !important;
+  padding: 0 0 5px 0;
+  margin: 0 0 30px 0;
+}
+
+/* line 406, ../sass/estilos.scss */
+#home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_7 h2 a {
+  color: #3cd03c;
+}
+
+/* line 410, ../sass/estilos.scss */
+#home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_7 .more-link {
+  text-transform: capitalize;
+  color: #3cd03c;
+  margin: 0 0 20px 0;
+}
+
+/* line 416, ../sass/estilos.scss */
+#home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_8 {
+  background: none;
+  padding: 0;
+  box-sizing: border-box;
+  max-height: none;
+  overflow: hidden;
+  z-index: 3;
+  min-height: 0;
+  height: auto;
+  margin: 3% 0% 30px 5%;
+  width: 26.3%;
+}
+
+/* line 428, ../sass/estilos.scss */
+#home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_8 article {
+  background: #d4ffff;
+  box-shadow: 1px 1px 2px -1px #ccc !important;
+  padding: 0 0 5px 0;
+  margin: 0 0 30px 0;
+}
+
+/* line 436, ../sass/estilos.scss */
+#home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_8 h2 a {
+  color: #45b1b1;
+}
+
+/* line 441, ../sass/estilos.scss */
+#home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_8 .more-link {
+  text-transform: capitalize;
+  color: #45b1b1;
+  margin: 0 0 20px 0;
+}
+
+/* line 448, ../sass/estilos.scss */
+#home_post_wrap .post-content p {
+  color: #333;
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0 0 10px 0 !important;
+}
+
+/* line 456, ../sass/estilos.scss */
+#home_post_wrap {
+  padding: 0 0 0 0 !important;
+}
+
+/* line 461, ../sass/estilos.scss */
+#home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_9 {
+  background: none;
+  padding: 0;
+  box-sizing: border-box;
+  max-height: none;
+  overflow: hidden;
+  z-index: 3;
+  min-height: 0;
+  height: auto;
+  margin: 3% 0% 30px 5%;
+  width: 26.3%;
+}
+
+/* line 473, ../sass/estilos.scss */
+#home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_9 article {
+  background: #ffd9ff;
+  box-shadow: 1px 1px 2px -1px #ccc !important;
+  padding: 0 0 5px 0;
+  margin: 0 0 30px 0;
+}
+
+/* line 480, ../sass/estilos.scss */
+#home_posts_section .et_pb_post h2 {
+  margin-top: 0px;
+  padding-top: 18px !important;
+}
+
+/* line 485, ../sass/estilos.scss */
+#home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_9 h2 a {
+  color: #e45de4;
+}
+
+/* line 489, ../sass/estilos.scss */
+#home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_9 .more-link {
+  text-transform: capitalize;
+  color: #e45de4;
+  margin: 0 0 20px 0;
+}
+
+/* line 495, ../sass/estilos.scss */
+#main-content .container:before {
+  display: none;
+}
+
+/* line 499, ../sass/estilos.scss */
+.frase {
+  font-size: 22px;
+  color: #b4b4b4;
+  line-height: 30px;
+  font-weight: bold;
+  padding: 0 0 0 50px;
+}
+
+/* line 507, ../sass/estilos.scss */
+.frase span {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* line 513, ../sass/estilos.scss */
+.move_menu_item {
+  color: #99ff99;
+  background: none;
+  border-radius: 6px;
+  padding: 1px 10px 3px 10px;
+  font-size: 22px;
+  line-height: 25px;
+  margin: 0 6px;
+  border: solid 2px #99ff99;
+  vertical-align: middle;
+}
+
+/* line 525, ../sass/estilos.scss */
+.move_menu_item:hover {
+  background: #9d9d2f;
+  color: #fefe01;
+  border: solid 2px #fefe01;
+}
+
+/* line 531, ../sass/estilos.scss */
+.work_menu_item {
+  color: #99ffff;
+  background: none;
+  border-radius: 6px;
+  padding: 1px 10px 3px 10px;
+  font-size: 22px;
+  line-height: 25px;
+  margin: 0 6px;
+  border: solid 2px #99ffff;
+  vertical-align: middle;
+}
+
+/* line 543, ../sass/estilos.scss */
+.work_menu_item:hover {
+  background: #9d9d2f;
+  color: #fefe01;
+  border: solid 2px #fefe01;
+}
+
+/* line 549, ../sass/estilos.scss */
+form#commentform p.comment-form-email {
+  display: none !important;
+}
+
+/* line 553, ../sass/estilos.scss */
+.think_menu_item {
+  color: #fe98fe;
+  background: none;
+  border-radius: 6px;
+  padding: 1px 10px 3px 10px;
+  font-size: 22px;
+  line-height: 25px;
+  margin: 0 6px;
+  border: solid 2px #fe98fe;
+  vertical-align: middle;
+}
+
+/* line 565, ../sass/estilos.scss */
+.think_menu_item:hover {
+  background: #9d9d2f;
+  color: #fefe01;
+  border: solid 2px #fefe01;
+}
+
+/* line 571, ../sass/estilos.scss */
+.icon_logo {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url(/wp-content/uploads/2021/03/cropped-logoicon-1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  vertical-align: middle;
+  margin: -5px 11px 0 46px;
+}
+
+/* line 582, ../sass/estilos.scss */
+#close_modal {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  position: absolute;
+  top: 30%;
+  right: 50%;
+  margin: -150px -222px 0 0;
+  border-radius: 60px;
+  line-height: 47px;
+  font-size: 25px;
+  text-align: center;
+  z-index: 66;
+  cursor: pointer;
+}
+
+/* line 598, ../sass/estilos.scss */
+#home_post_wrap article img {
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+/* line 604, ../sass/estilos.scss */
+#home_post_wrap .entry-title, #home_post_wrap .post-meta, #home_post_wrap .post-content {
+  padding: 0 25px;
+}
+
+/* line 609, ../sass/estilos.scss */
+#modal_subs {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 666666;
+}
+
+/* line 620, ../sass/estilos.scss */
+#modal_subs.closed {
+  display: none;
+}
+
+/* line 624, ../sass/estilos.scss */
+#modal_subs.opened {
+  display: block;
+}
+
+/* line 628, ../sass/estilos.scss */
+#yikes-mailchimp-container-1 {
+  background: #fff;
+  width: 400px;
+  margin: -130px auto 0 -200px;
+  top: 30%;
+  position: absolute;
+  left: 50%;
+  border-radius: 4px;
+  padding: 40px;
+  text-align: left;
+}
+
+/* line 640, ../sass/estilos.scss */
+#yikes-mailchimp-container-1 .yikes-mailchimp-form-description {
+  text-align: center;
+  font-size: 25px;
+  margin: 0 0 20px 0;
+  color: #333;
+}
+
+/* line 647, ../sass/estilos.scss */
+#yikes-mailchimp-container-1 input[type="text"], #yikes-mailchimp-container-1 input[type="email"] {
+  border-radius: 2px;
+  background: #fff;
+  border: solid 1px #ccc;
+  height: 40px;
+  line-height: 40px;
+}
+
+/* line 655, ../sass/estilos.scss */
+.yikes-easy-mc-submit-button.yikes-easy-mc-submit-button-1.btn.btn-primary.admin-logged-in {
+  color: #fff;
+  padding: 16px 33px;
+  margin: 0 auto;
+  border-radius: 4px;
+  display: block;
+  text-align: center;
+  background: #269047;
+  border: none;
+  width: 100%;
+}
+
+@-webkit-keyframes home_aumenta {
+  0% {
+    width: 100px;
+    height: 100px;
+    margin: 14px 0 0 -50px;
+  }
+  50% {
+    width: 120px;
+    height: 120px;
+    margin: 4px 0 0 -61px;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    margin: 14px 0 0 -50px;
+  }
+}
+@keyframes home_aumenta {
+  0% {
+    width: 100px;
+    height: 100px;
+    margin: 14px 0 0 -50px;
+  }
+  50% {
+    width: 120px;
+    height: 120px;
+    margin: 4px 0 0 -61px;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    margin: 14px 0 0 -50px;
+  }
+}
+@-webkit-keyframes home_aumenta_bg {
+  0% {
+    width: 424px;
+    height: 373px;
+    margin: 0px 0 0 6px;
+  }
+  50% {
+    width: 571px;
+    height: 487px;
+    margin: -78px 0 0 -68px;
+    opacity: 0.05;
+  }
+  100% {
+    width: 424px;
+    height: 373px;
+    margin: 0px 0 0 6px;
+  }
+}
+@keyframes home_aumenta_bg {
+  0% {
+    width: 424px;
+    height: 373px;
+    margin: 0px 0 0 6px;
+  }
+  50% {
+    width: 571px;
+    height: 487px;
+    margin: -78px 0 0 -68px;
+    opacity: 0.05;
+  }
+  100% {
+    width: 424px;
+    height: 373px;
+    margin: 0px 0 0 6px;
+  }
+}
+/* line 691, ../sass/estilos.scss */
+#piramide_home {
+  position: relative;
+  z-index: 2;
+}
+
+/* line 696, ../sass/estilos.scss */
+#piramide_home::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  background-image: url("http://hacking.health/wp-content/uploads/2017/11/icone.png");
+  background-size: 100%;
+  margin: 14px 0 0 -50px;
+  background-repeat: no-repeat;
+  -webkit-animation: home_aumenta 3s infinite;
+  animation: home_aumenta 3s infinite;
+}
+
+/* line 711, ../sass/estilos.scss */
+#piramide_home_ondas {
+  content: "";
+  position: absolute;
+  width: 424px;
+  height: 373px;
+  background: url(http://hacking.health/wp-content/uploads/2017/12/ondas.png);
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.3;
+  z-index: 1;
+  left: 0;
+  margin: 0px 0 0 6px;
+  -webkit-animation: home_aumenta_bg 7s infinite;
+  animation: home_aumenta_bg 7s infinite;
+}
+
+/* -- default pages -- */
+/* line 729, ../sass/estilos.scss */
+#main-header {
+  min-width: 75px;
+  max-width: 75px;
+}
+
+/* line 733, ../sass/estilos.scss */
+#main-header:hover {
+  min-width: 225px;
+  max-width: 225px;
+}
+
+/* line 738, ../sass/estilos.scss */
+#main-header #logo {
+  width: 75%;
+  margin: 29px auto;
+}
+
+/* line 743, ../sass/estilos.scss */
+#main-header:hover #logo {
+  width: 37% !important;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 980px){
+#main-header:hover #logo {
+    width: 350px !important;
+    max-height: 180px;
+	height: 100px; 
+     padding: 0px 0px 1px 0px !important;
+
+	}
+}
+
+/* line 748, ../sass/estilos.scss */
+.et_vertical_nav #main-header #top-menu li {
+  width: 225px;
+}
+
+/* line 751, ../sass/estilos.scss */
+.page-template-default.page #et-main-area {
+  margin-left: 0px !important;
+}
+
+/* line 755, ../sass/estilos.scss */
+#main-header #top-menu > li > a {
+  width: 225px;
+  height: 43px;
+  overflow: hidden;
+  padding: 0px !important;
+  line-height: 300px;
+  background-position: 24px 9px !important;
+  transition: none !important;
+}
+
+/* line 764, ../sass/estilos.scss */
+#main-header:hover #top-menu > li > a {
+  width: 225px;
+  height: auto;
+  overflow: auto;
+  padding: 14px 0 14px 60px !important;
+  line-height: unset;
+  background-position: 24px 9px !important;
+}
+
+/* line 773, ../sass/estilos.scss */
+#main-header:hover #logo {
+  width: auto;
+}
+
+/* -- default pages -- */
+/* -- Home -- */
+/* line 780, ../sass/estilos.scss */
+.home#main-header {
+  background: #333;
+  min-width: 75px;
+  max-width: 75px;
+}
+
+/* line 785, ../sass/estilos.scss */
+.home#main-header:hover {
+  background: #333;
+  min-width: 225px;
+  max-width: 225px;
+}
+
+/* line 790, ../sass/estilos.scss */
+.home#main-header #logo {
+  width: 74%;
+}
+
+
+/* line 797, ../sass/estilos.scss */
+.home#main-header #top-menu #menu-item-110 a {
+  background-position: 24px 7px !important;
+}
+
+/* line 801, ../sass/estilos.scss */
+.home#main-header #top-menu #menu-item-113 a {
+  background-position: 24px 9px !important;
+}
+
+/* line 805, ../sass/estilos.scss */
+.et_vertical_nav #main-header #logo {
+  margin: 0 auto;
+}
+
+/* line 809, ../sass/estilos.scss */
+.et_vertical_nav #main-header .container {
+  margin: 0;
+}
+
+/* line 815, ../sass/estilos.scss */
+article#post-90 {
+  padding: 0 0 0 0;
+}
+
+/* line 819, ../sass/estilos.scss */
+a#menu-ativo {
+  background: #7fc04a;
+  color: #fff !important;
+}
+
+/* line 824, ../sass/estilos.scss */
+a#menu-ativo-work {
+  background: #4294e0;
+  color: #fff !important;
+}
+
+/* line 829, ../sass/estilos.scss */
+a#menu-ativo-think {
+  background: #c84fc8;
+  color: #fff !important;
+}
+
+/* line 834, ../sass/estilos.scss */
+#home_center_menu {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 20px 0 0 0;
+  padding: 32px 0px 30px 0px;
+  background: #333;
+  z-index: 4;
+}
+
+/* line 846, ../sass/estilos.scss */
+#home_center_menu_original {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 20px 0 0 0;
+  padding: 32px 0px 30px 0px;
+  background: #fafafa;
+  border-top: solid 1px #ececec;
+  border-bottom: solid 1px #ececec;
+}
+
+/* line 856, ../sass/estilos.scss */
+#cta_section {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 0 0 0;
+  margin-top: 0px;
+  margin-top: 20px;
+  padding: 10px 0px 30px 0px;
+  background: #fff;
+  border-bottom: solid 1px #f1f1f1;
+  display: none;
+}
+
+/* line 868, ../sass/estilos.scss */
+.big_cta {
+  background: #269047;
+  color: #fff;
+  padding: 16px 33px;
+  margin: 0 auto;
+  border-radius: 4px;
+  display: block;
+  width: 250px;
+  text-align: center;
+}
+
+/* line 879, ../sass/estilos.scss */
+.big_cta:hover {
+  background: #186931;
+}
+
+/* line 883, ../sass/estilos.scss */
+.become_btn {
+  background-color: none;
+  color: #fefe01;
+  padding: 16px 33px;
+  margin: -12px auto -9px;
+  border-radius: 4px;
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 22px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  width: 301px;
+  border: solid 2px #fefe01;
+  margin: -12px 30px -9px 0;
+  border-radius: 4px;
+  float: right;
+  padding: 16px 54px 16px 33px;
+  background-image: url(/wp-content/uploads/2021/03/cropped-logoicon-1.png);
+  background-repeat: no-repeat !important;
+  background-size: 35px !important;
+  background-position: 92% 8px !important;
+}
+/* line 907, ../sass/estilos.scss */
+.become_btn:hover {
+  background-color: #9d9d2f;
+}
+
+/* line 913, ../sass/estilos.scss */
+#home_center_menu .et_pb_column.et_pb_column_2_3.et_pb_column_2 {
+  margin: 0px;
+  padding: 0px;
+  width: 70%;
+}
+
+/* line 919, ../sass/estilos.scss */
+#home_center_menu .et_pb_code.et_pb_module.et_pb_code_2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 925, ../sass/estilos.scss */
+#home_center_menu_original .et_pb_column.et_pb_column_2_3.et_pb_column_2 {
+  margin: 0px;
+  padding: 0px;
+  width: 65%;
+}
+
+/* line 931, ../sass/estilos.scss */
+#home_center_menu_original .et_pb_column.et_pb_column_2_3.et_pb_column_4 {
+  width: 31% !important;
+  margin-right: 0 !important;
+}
+
+/* line 936, ../sass/estilos.scss */
+#home_center_menu_original .et_pb_column.et_pb_column_1_3.et_pb_column_5 {
+  width: 65% !important;
+  text-align: right;
+}
+
+/* line 941, ../sass/estilos.scss */
+#home_center_menu_original .et_pb_code.et_pb_module.et_pb_code_2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 946, ../sass/estilos.scss */
+.centered_menu {
+  margin: 0px;
+  padding: 0 0 0 50px !important;
+}
+
+/* line 951, ../sass/estilos.scss */
+.centered_menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+/* line 956, ../sass/estilos.scss */
+.MenuStickyHeaderTop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 55555;
+  padding: 30px 0px 30px 58px !important;
+  margin: 0px !important;
+  background: #333 !important;
+  border-bottom: solid 1px #333 !important;
+  border-top: solid 1px #333 !important;
+  box-shadow: 1px 1px 1px #333 !important;
+}
+
+/* line 973, ../sass/estilos.scss */
+.centered_menu a {
+  background: #6fd78f;
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px 0 0;
+  border-radius: 4px;
+}
+
+/* line 981, ../sass/estilos.scss */
+.centered_menu a:hover {
+  background: #50b770;
+}
+
+/* line 985, ../sass/estilos.scss */
+#home_center_menu .et_pb_column.et_pb_column_1_3.et_pb_column_3 {
+  margin: 0 !important;
+  padding: 0;
+  width: 30%;
+  text-align: center;
+}
+
+/* line 994, ../sass/estilos.scss */
+#home_center_menu .et_pb_column.et_pb_column_1_3.et_pb_column_3 .et_pb_code.et_pb_module.et_pb_code_3 {
+  text-align: center;
+}
+
+/* line 998, ../sass/estilos.scss */
+#menu-item-116 a {
+  background-image: url("/wp-content/uploads/2018/02/1-Hackie-Green-Body.png");
+  background-position: 13px 10px !important;
+}
+
+/* line 1002, ../sass/estilos.scss */
+#menu-item-109 a {
+  background-image: url("/wp-content/uploads/2018/02/Bionaut-Blue-99FFFF.png");
+}
+
+/* line 1005, ../sass/estilos.scss */
+#menu-item-110 a {
+  background-image: url("/wp-content/uploads/2018/02/1-Hackie-Pink-Body.png");
+}
+
+/* line 1008, ../sass/estilos.scss */
+#menu-item-111 a {
+  background-image: url("/wp-content/uploads/2017/10/icon-about.png");
+}
+
+/* line 1011, ../sass/estilos.scss */
+#menu-item-112 a {
+  background-image: url("/wp-content/uploads/2017/10/icon-events.png");
+}
+
+/* line 1014, ../sass/estilos.scss */
+#menu-item-113 a {
+  background-image: url("/wp-content/uploads/2018/02/icon-shop-white.png");
+}
+
+/* line 1018, ../sass/estilos.scss */
+#menu-item-109.current-menu-item a {
+  background-color: #fff !important;
+  color: #99ffff !important;
+}
+
+/* line 1023, ../sass/estilos.scss */
+#menu-item-110.current-menu-item a {
+  background-color: #fff !important;
+  color: #fe98fe !important;
+}
+
+/* line 1028, ../sass/estilos.scss */
+#menu-item-116.current-menu-item a {
+  background-color: #fff !important;
+  color: #99ff99 !important;
+}
+
+/* line 1033, ../sass/estilos.scss */
+#live-powerfully #categorias-menu .et_pb_bg_layout_light.et_pb_module.et_pb_button {
+  color: #d7c364 !important;
+}
+
+/* line 1037, ../sass/estilos.scss */
+.move-main-menu {
+  z-index: 2;
+}
+
+/* line 1040, ../sass/estilos.scss */
+#think-main-menu {
+  z-index: 2;
+}
+
+/* line 1043, ../sass/estilos.scss */
+#live-main-menu {
+  z-index: 2;
+}
+
+/* line 1047, ../sass/estilos.scss */
+.move-main-menu .et_pb_button_module_wrapper, .work-main-menu .et_pb_button_module_wrapper, .think-main-menu .et_pb_button_module_wrapper {
+  display: inline-block;
+  margin: 0 12px 0 0;
+}
+
+/* btn */
+/* line 1053, ../sass/estilos.scss */
+.move-main-menu .et_pb_button_module_wrapper .et_pb_bg_layout_light.et_pb_module.et_pb_button {
+  color: #99ff99;
+  padding: 0px 8px !important;
+  font-size: 19px;
+}
+
+/* line 1059, ../sass/estilos.scss */
+.move-main-menu .et_pb_button_module_wrapper .et_pb_bg_layout_light.et_pb_module.et_pb_button:hover {
+  background: #9d9d2f;
+  color: #fefe01;
+  border: solid 2px #fefe01;
+}
+
+/* btn */
+/* btn */
+/* line 1068, ../sass/estilos.scss */
+.work-main-menu .et_pb_button_module_wrapper .et_pb_bg_layout_light.et_pb_module.et_pb_button {
+  color: #99ffff;
+  padding: 0px 8px !important;
+  font-size: 19px;
+}
+
+/* line 1074, ../sass/estilos.scss */
+.work-main-menu .et_pb_button_module_wrapper .et_pb_bg_layout_light.et_pb_module.et_pb_button:hover {
+  background: #9d9d2f;
+  color: #fefe01;
+  border: solid 2px #fefe01;
+}
+
+/* btn */
+/* btn */
+/* line 1082, ../sass/estilos.scss */
+.think-main-menu .et_pb_button_module_wrapper .et_pb_bg_layout_light.et_pb_module.et_pb_button {
+  color: #fe98fe;
+  padding: 0px 8px !important;
+  font-size: 19px;
+}
+
+/* line 1088, ../sass/estilos.scss */
+.think-main-menu .et_pb_button_module_wrapper .et_pb_bg_layout_light.et_pb_module.et_pb_button:hover {
+  background: #9d9d2f;
+  color: #fefe01;
+  border: solid 2px #fefe01;
+}
+
+/* btn */
+/* line 1099, ../sass/estilos.scss */
+#main-header #top-menu > li > a {
+  background-repeat: no-repeat;
+  background-position: 12px 7px;
+  padding: 14px 0 14px 49px !important;
+  margin: 0 0 0 0 !important;
+  background-size: 23px;
+  width: 100%;
+  border-bottom: solid 1px #605b5b;
+}
+
+/* line 1108, ../sass/estilos.scss */
+#main-header #top-menu > li > a:hover {
+  background-color: #242222;
+}
+
+/* line 1112, ../sass/estilos.scss */
+#categorias-menu {
+  width: 880px;
+  display: inline-block;
+  margin: 0 0 0 143px;
+}
+
+/* line 1118, ../sass/estilos.scss */
+#categorias-menu .et_pb_column {
+  margin: 0 !important;
+}
+
+/* line 1122, ../sass/estilos.scss */
+#categorias-menu .et_pb_column a {
+  margin: 0px;
+  display: block;
+  text-align: center;
+  width: 95%;
+}
+
+/* line 1129, ../sass/estilos.scss */
+.logo_container a {
+  display: inline-block;
+  height: 60px;
+}
+
+/* line 1134, ../sass/estilos.scss */
+#main-header #top-menu > li#menu-item-116 > a {
+  background-position: 24px 9px !important;
+}
+
+/* line 1138, ../sass/estilos.scss */
+#main-header #top-menu > li#menu-item-109 > a {
+  background-position: 24px 9px !important;
+}
+
+/* line 1142, ../sass/estilos.scss */
+#main-header.stickedSidebarLeft {
+  position: fixed;
+}
+
+/* line 1148, ../sass/estilos.scss */
+#main-header.stickedSidebarLeft #et_mobile_nav_menu {
+  margin-top: 0;
+}
+
+/* line 1152, ../sass/estilos.scss */
+.post-template-default #home_center_menu .frase {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+/* line 1157, ../sass/estilos.scss */
+.post-template-default #home_center_menu .et_pb_code.et_pb_module.et_pb_code_3 {
+  margin-bottom: 0 !important;
+}
+
+/* line 1161, ../sass/estilos.scss */
+#home_center_menu.move-main-menu, #home_center_menu.work-main-menu, #home_center_menu.think-main-menu {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 60px 0 20px 0;
+  padding: 32px 9% 30px 9%;
+  background: #222;
+  border-top: solid 1px #ececec;
+  border-bottom: solid 1px #ececec;
+  text-align: right;
+}
+
+/* line 1172, ../sass/estilos.scss */
+#home_center_menu.move-main-menu .icon_logo, #home_center_menu.work-main-menu .icon_logo, #home_center_menu.think-main-menu .icon_logo {
+  margin: 0 11px 0 0;
+}
+
+/* line 1176, ../sass/estilos.scss */
+#home_center_menu.move-main-menu .et_pb_module, #home_center_menu.work-main-menu .et_pb_module, #home_center_menu.think-main-menu .et_pb_module {
+  margin-bottom: 0 !important;
+}
+
+/* line 1180, ../sass/estilos.scss */
+#home_center_menu.move-main-menu.MenuStickyHeaderTop {
+  padding: 30px 30px 30px 90px !important;
+  background: #222 !important;
+  border-bottom: solid 1px #222 !important;
+  border-top: solid 1px #222 !important;
+}
+
+/* line 1187, ../sass/estilos.scss */
+#home_center_menu.work-main-menu.MenuStickyHeaderTop {
+  padding: 30px 30px 30px 90px !important;
+  background: #222 !important;
+  border-bottom: solid 1px #222 !important;
+  border-top: solid 1px #222 !important;
+}
+
+/* line 1194, ../sass/estilos.scss */
+#home_center_menu.think-main-menu.MenuStickyHeaderTop {
+  padding: 30px 30px 30px 90px !important;
+  background: #222 !important;
+  border-bottom: solid 1px #222 !important;
+  border-top: solid 1px #222 !important;
+}
+
+/* line 1201, ../sass/estilos.scss */
+#move-powerfully .et_pb_post {
+  background: #d4ffd4;
+  box-shadow: 1px 1px 2px -1px #ccc !important;
+}
+
+/* line 1206, ../sass/estilos.scss */
+#move-powerfully .et_pb_post h2 a {
+  color: #3cd03c;
+  font-size: 21px;
+}
+
+/* line 1211, ../sass/estilos.scss */
+#move-powerfully .et_pb_post .post-content p {
+  color: #333 !important;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 0 10px 0;
+}
+
+/* line 1218, ../sass/estilos.scss */
+#move-powerfully .et_pb_blog_0 .et_pb_post, #move-powerfully .et_pb_blog_0 .et_pb_post .post-content * {
+  text-transform: capitalize;
+  color: #3cd03c;
+}
+
+/* line 1223, ../sass/estilos.scss */
+#WorkPowerfully_Tank #work_menu_tank,
+#WorkPowerfully_Foundation #work_menu_foundation,
+#WorkPowerfully_Engine #work_menu_engine,
+#WorkPowerfully_Fitness #work_menu_fitness {
+  background: #99ffff !important;
+  color: #5286b4 !important;
+  border-color: #99ffff !important;
+}
+
+/* line 1232, ../sass/estilos.scss */
+#WorkPowerfully_Tank,
+#WorkPowerfully_Foundation,
+#WorkPowerfully_Engine,
+#WorkPowerfully_Fitness {
+  padding: 3% 0 0 0 !important;
+}
+
+/* line 1239, ../sass/estilos.scss */
+#live-powerfully .et_pb_post,
+#WorkPowerfully_Tank .et_pb_post,
+#WorkPowerfully_Foundation .et_pb_post,
+#WorkPowerfully_Engine .et_pb_post,
+#WorkPowerfully_Fitness .et_pb_post {
+  background: #d4ffff;
+  box-shadow: 1px 1px 2px -1px #ccc !important;
+}
+
+/* line 1248, ../sass/estilos.scss */
+#live-powerfully .et_pb_post .more-link,
+#WorkPowerfully_Tank .et_pb_post .more-link,
+#WorkPowerfully_Foundation .et_pb_post .more-link,
+#WorkPowerfully_Engine .et_pb_post .more-link,
+#WorkPowerfully_Fitness .et_pb_post .more-link {
+  text-transform: capitalize;
+  color: #45b1b1;
+  margin: 0 0 20px 0;
+}
+
+/* line 1258, ../sass/estilos.scss */
+#live-powerfully .et_pb_post h2 a,
+#WorkPowerfully_Tank .et_pb_post h2 a,
+#WorkPowerfully_Foundation .et_pb_post h2 a,
+#WorkPowerfully_Engine .et_pb_post h2 a,
+#WorkPowerfully_Fitness .et_pb_post h2 a {
+  color: #45b1b1;
+}
+
+/* line 1267, ../sass/estilos.scss */
+#live-powerfully .et_pb_post h2 a {
+  color: #45b1b1;
+  font-size: 21px;
+}
+
+/* line 1272, ../sass/estilos.scss */
+#live-powerfully .et_pb_post .more-link {
+  color: #45b1b1 !important;
+}
+
+/* line 1276, ../sass/estilos.scss */
+#live-powerfully .et_pb_post .post-content p {
+  color: #333 !important;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 0 10px 0;
+}
+
+/* line 1283, ../sass/estilos.scss */
+#live-powerfully .et_pb_blog_0 .et_pb_post, #live-powerfully .et_pb_blog_0 .et_pb_post .post-content * {
+  text-transform: capitalize;
+  color: #3cd03c;
+}
+
+/* line 1288, ../sass/estilos.scss */
+#think_powerfully_page .et_pb_post {
+  background: #ffd9ff;
+  box-shadow: 1px 1px 2px -1px #ccc !important;
+}
+
+/* line 1294, ../sass/estilos.scss */
+#think_powerfully_page .et_pb_post h2 a {
+  color: #e45de4;
+  font-size: 21px;
+}
+
+/* line 1300, ../sass/estilos.scss */
+#think_powerfully_page .et_pb_post .post-content p {
+  color: #333 !important;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 0 10px 0;
+}
+
+/* line 1307, ../sass/estilos.scss */
+#think_powerfully_page .et_pb_post .more-link {
+  color: #e45de4 !important;
+}
+
+/* line 1312, ../sass/estilos.scss */
+#think_powerfully_page .et_pb_blog_0 .et_pb_post, #think_powerfully_page .et_pb_blog_0 .et_pb_post .post-content * {
+  text-transform: capitalize;
+  color: #3cd03c;
+}
+
+/* line 1319, ../sass/estilos.scss */
+.home_graphic {
+  width: 100%;
+  margin: 0px auto 0 auto;
+  text-align: center;
+  max-width:80%;
+}
+
+/* line 1324, ../sass/estilos.scss */
+#category_big_cta {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 0 0 0;
+  padding: 92px 9%;
+  background: #222;
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+  text-align: right;
+}
+
+/* line 1336, ../sass/estilos.scss */
+#category_big_cta .become_btn {
+  margin: -12px auto -9px !important;
+  float: none;
+}
+
+/* line 1341, ../sass/estilos.scss */
+.et_pb_gutters4 .et_pb_column_4_4 .et_pb_module {
+  margin-bottom: 0px !important;
+}
+
+/* line 1345, ../sass/estilos.scss */
+#move-powerfully, #work-powerfully, #live-powerfully, #think-powerfully, #think_powerfully_page {
+  padding: 3% 0 0;
+}
+
+/* line 1350, ../sass/estilos.scss */
+#home_posts_section .et_pb_post {
+  margin-bottom: 0;
+}
+
+/* ************************* Post Page ************************ */
+/* line 1358, ../sass/estilos.scss */
+.post-template-default .container {
+  width: 100%;
+  padding: 0px !important;
+  right: 0 !important;
+  left: 0 !important;
+  margin: 0 !important;
+}
+
+/* line 1366, ../sass/estilos.scss */
+.post-template-default .container #home_center_menu {
+  background: #333 !important;
+  margin: 0 !important;
+  padding: 26px 2% 30px 2%;
+}
+
+/* line 1372, ../sass/estilos.scss */
+.post-template-default .container #home_center_menu.MenuStickyHeaderTop {
+  padding: 26px 2% 30px 8% !important;
+  background: #222 !important;
+}
+
+/* line 1377, ../sass/estilos.scss */
+.post-template-default .et_pb_section {
+  padding: 0 !important;
+}
+
+/* line 1381, ../sass/estilos.scss */
+.post-template-default #menu-institutional-menu {
+  padding: 15px 60px;
+}
+
+/* line 1385, ../sass/estilos.scss */
+.post-template-default #comment-wrap {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* line 1390, ../sass/estilos.scss */
+#global_post_title {
+  max-width: 960px;
+  margin: 20px auto 0 auto;
+}
+
+/* line 1395, ../sass/estilos.scss */
+#global_post_text {
+  max-width: 960px;
+  margin: 20px auto 0 auto;
+}
+
+/* line 1400, ../sass/estilos.scss */
+.posts-main-menu-move .et_pb_button_module_wrapper .et_pb_bg_layout_light.et_pb_module.et_pb_button {
+  color: #99ff99;
+  padding: 0px 8px !important;
+  font-size: 19px;
+}
+
+/* line 1406, ../sass/estilos.scss */
+.posts-main-menu-move .et_pb_button_module_wrapper .et_pb_bg_layout_light.et_pb_module.et_pb_button:hover {
+  background: #9d9d2f;
+  color: #fefe01;
+  border: solid 2px #fefe01;
+}
+
+/* line 1412, ../sass/estilos.scss */
+.posts-main-menu-work .et_pb_button_module_wrapper .et_pb_bg_layout_light.et_pb_module.et_pb_button {
+  color: #99ffff;
+  padding: 0px 8px !important;
+  font-size: 19px;
+}
+
+/* line 1418, ../sass/estilos.scss */
+.posts-main-menu-work .et_pb_button_module_wrapper .et_pb_bg_layout_light.et_pb_module.et_pb_button:hover {
+  background: #5484b0;
+  color: #99ffff;
+  border: solid 2px #99ffff;
+}
+
+/* line 1424, ../sass/estilos.scss */
+.posts-main-menu-think .et_pb_button_module_wrapper .et_pb_bg_layout_light.et_pb_module.et_pb_button {
+  color: #fe98fe;
+  padding: 0px 8px !important;
+  font-size: 19px;
+}
+
+/* line 1430, ../sass/estilos.scss */
+.posts-main-menu-think .et_pb_button_module_wrapper .et_pb_bg_layout_light.et_pb_module.et_pb_button:hover {
+  background: #9b449b;
+  color: #fe98fe;
+  border: solid 2px #fe98fe;
+}
+
+/* line 1436, ../sass/estilos.scss */
+.posts-main-menu-move .et_pb_button_module_wrapper, .posts-main-menu-work .et_pb_button_module_wrapper, .posts-main-menu-think .et_pb_button_module_wrapper {
+  display: inline-block;
+  margin: 0 12px 0 0;
+}
+
+/* line 1441, ../sass/estilos.scss */
+#home_center_menu.posts-main-menu-move, #home_center_menu.posts-main-menu-work, #home_center_menu.posts-main-menu-think {
+  text-align: right;
+}
+
+/* line 1445, ../sass/estilos.scss */
+.post-template-default .icon_logo {
+  width: 48px;
+  background: url(http://hacking.health/wp-content/uploads/2018/01/back-arrow.png);
+  background-size: 93%;
+  margin: -5px 11px 0 0;
+  background-repeat: no-repeat;
+}
+
+/* ************************* Post Page ************************ */
+/* ************************* Responsive *********  **************** */
+@media screen and (max-width: 1340px) {
+  /* line 1463, ../sass/estilos.scss */
+  #piramide_move.piramide_move,
+  #piramide_live.piramide_live,
+  #piramide_think.piramide_think {
+    right: 0px; /* -117 */
+  }
+}
+@media screen and (max-width: 1100px) {
+  /* line 1475, ../sass/estilos.scss */
+  #ordem_block .et_pb_column_1_2 {
+    padding: 0 66px 0 0;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* ******************** GLOBAL ******************** */
+  /* line 1488, ../sass/estilos.scss */
+  .et_header_style_split .et_mobile_menu {
+    background: #333;
+  }
+
+  /* line 1494, ../sass/estilos.scss */
+  #think_powerfully_page #ordem_block .et_pb_column_1_2 {
+    max-width: 100% !important;
+    width: 100%;
+    min-width: 100%;
+  }
+
+  /* line 1502, ../sass/estilos.scss */
+  .et_mobile_menu li a {
+    color: #fff;
+  }
+
+  /* line 1506, ../sass/estilos.scss */
+  .et_header_style_split .mobile_nav .select_page {
+    color: #fff;
+  }
+
+  /* line 1510, ../sass/estilos.scss */
+  .traction_btn {
+    overflow: hidden;
+    opacity: 1;
+    top: 5px;
+  }
+
+  /* line 1516, ../sass/estilos.scss */
+  .et_vertical_nav #et-main-area, .et_vertical_nav #top-header {
+    margin-left: 0 !important;
+  }
+
+  /* line 1520, ../sass/estilos.scss */
+  .desktop_elemento {
+    display: none!important;
+  }
+
+  /* line 1524, ../sass/estilos.scss */
+  .mobile_elemento {
+    display: block;
+  }
+
+  /* line 1529, ../sass/estilos.scss */
+  #aliasElement_1.ativo {
+    height: 120px !important;
+    display: block;
+    position: static;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 980px){
+	#aliasElement_1.ativo {
+    height: 0px !important; 
+    display: block;
+    position: static;
+    width: 100%;
+	}
+}
+
+  /* line 1538, ../sass/estilos.scss */
+  #aliasElement_2.ativo {
+    height: 240px !important;
+    display: block;
+    position: static;
+    width: 100%;
+  }
+
+  /* line 1548, ../sass/estilos.scss */
+  #et-footer-nav .bottom-nav li {
+    padding: 10px 0;
+    margin: 0px;
+    display: block;
+  }
+  /* line 1552, ../sass/estilos.scss */
+  #et-footer-nav .bottom-nav li a {
+    color: #fff;
+  }
+
+  /* ******************** GLOBAL ******************** */
+  /* ******************** HEADER / MENU ******************** */
+  /* line 1565, ../sass/estilos.scss */
+  body.admin-bar.et_vertical_nav #main-header {
+    top: 0 !important;
+    padding: 0 0 1px 0;
+    min-width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* line 1572, ../sass/estilos.scss */
+  #main-header {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    padding: 20px 0 5px 0 !important;
+  }
+  
+  @media screen and (max-width: 980px){
+  #main-header {
+    padding: 2px 0 5px 0 !important; 
+  	}
+  }
+  
+  /* line 1576, ../sass/estilos.scss */
+  #main-header:hover {
+    min-width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  @media screen and (max-width: 980px){
+	#main-header:hover {
+ }
+}
+
+  /* line 1583, ../sass/estilos.scss */
+  .et_vertical_nav #main-header .container {
+    margin: 0 10px 20px 10px !important;
+padding: 0px 10px;
+ max-width: 100%;
+  }
+  
+  @media only screen and (max-width:980px){
+  .et_vertical_nav #main-header .container {
+   margin: 0px 0px 10px 0px !important;
+  padding: 0px 10px 10px;
+  max-width: 100%;
+  width: 100%;
+ 	 }
+  }
+
+  /* line 1589, ../sass/estilos.scss */
+  .et_vertical_nav #main-header #logo {
+    margin: 16px auto 0 auto;
+    width: 98px;
+    max-height: none;
+    max-width: none;
+  }
+
+  /* line 1596, ../sass/estilos.scss */
+  #main-header:hover #logo {
+    width: 98px !important;
+    margin: 16px auto 0 auto;
+  }
+  
+  @media screen and (max-width: 980px){
+	#main-header:hover #logo {
+    width: 350px !important;
+	}
+}
+
+  /* line 1601, ../sass/estilos.scss */
+  .et_vertical_nav #main-header .container,
+  #main-header {
+    overflow: visible;
+  }
+
+  /* line 1607, ../sass/estilos.scss */
+  #menu-item-116 a, #menu-item-109 a, #menu-item-110 a {
+    background-position: 98% 6px !important;
+    background-size: 20px;
+    background-repeat: no-repeat;
+  }
+
+  /* line 1613, ../sass/estilos.scss */
+  #menu-item-113 a {
+    background-image: url("/wp-content/uploads/2017/10/icon-shop.png");
+    background-position: 98% 6px !important;
+    background-size: 20px;
+    background-repeat: no-repeat;
+  }
+
+  /* line 1621, ../sass/estilos.scss */
+  body.admin-bar.et_vertical_nav #main-header.stickedSidebarLeft .traction_btn {
+    display: none !important;
+  }
+
+  /* line 1626, ../sass/estilos.scss */
+  .traction_btn {
+    display: none !important;
+  }
+
+  /* ******************** HEADER / MENU ******************** */
+  /* ******************** HOMEPAGE ******************** */
+  /* line 1634, ../sass/estilos.scss */
+  .et_pb_section {
+    padding: 30px 0 50px 0;
+  }
+
+  /* line 1638, ../sass/estilos.scss */
+  .et_pb_column {
+    margin-bottom: 0;
+  }
+
+  /* line 1642, ../sass/estilos.scss */
+  .home_graphic {
+    width: 100%;
+    margin: 15px auto 20px auto;
+  }
+
+  /* line 1647, ../sass/estilos.scss */
+  .frase {
+    font-size: 19px;
+    color: #fff;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* line 1653, ../sass/estilos.scss */
+  .frase .icon_logo {
+    display: none;
+  }
+  /* line 1656, ../sass/estilos.scss */
+  .frase span {
+    font-size: 19px;
+  }
+  /* line 1659, ../sass/estilos.scss */
+  .frase .move_menu_item,
+  .frase .work_menu_item,
+  .frase .think_menu_item {
+    font-size: 17px;
+    line-height: 25px;
+    margin: 15px auto;
+    display: block;
+    width: 90%;
+    padding: 7px 10px 9px 10px;
+  }
+
+  /* line 1671, ../sass/estilos.scss */
+  #home_center_menu {
+    padding: 10px 0px 10px 0px;
+  }
+  
+  /* line 1673, ../sass/estilos.scss */
+  #home_center_menu.MenuStickyHeaderTop {
+    padding: 0 0px 0 0 !important;
+    top: 67px;
+  }
+  /* line 1677, ../sass/estilos.scss */
+  #home_center_menu.MenuStickyHeaderTop .move_menu_item,
+  #home_center_menu.MenuStickyHeaderTop .work_menu_item,
+  #home_center_menu.MenuStickyHeaderTop .think_menu_item {
+    margin: 15px 2% 15px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+  }
+  /* line 1687, ../sass/estilos.scss */
+  #home_center_menu .frase {
+    padding: 0px;
+  }
+
+  /* line 1693, ../sass/estilos.scss */
+  #video_mobile_home.et_pb_section {
+    padding: 18px 0 20px 0;
+  }
+  /* line 1696, ../sass/estilos.scss */
+/*
+  #video_mobile_home .video_youtube {
+    height: 150px;
+  }
+*/
+
+  /* line 1701, ../sass/estilos.scss */
+  #home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_7,
+  #home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_8,
+  #home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_9 {
+    margin: 0 !important;
+  }
+  /* line 1706, ../sass/estilos.scss */
+  #home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_7 article,
+  #home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_8 article,
+  #home_post_wrap .et_pb_column.et_pb_column_1_3.et_pb_column_9 article {
+    margin: 0 0 0 0;
+  }
+
+  /* line 1712, ../sass/estilos.scss */
+  #CTA_mobile_home.et_pb_section {
+    padding: 30px 0 30px 0;
+  }
+  /* line 1715, ../sass/estilos.scss */
+  #CTA_mobile_home .become_btn {
+    width: 100%;
+    margin: 0;
+    background-color: #9d9d2f;
+  }
+
+  /* ******************** HOMEPAGE ******************** */
+  /* ******************** CATEGORIES PAGE ******************** */
+  /* line 1728, ../sass/estilos.scss */
+  #piramide_move.piramide_move,
+  #piramide_live.piramide_live,
+  #piramide_think.piramide_think {
+    position: static;
+  }
+
+  /* line 1735, ../sass/estilos.scss */
+  #home_center_menu.move-main-menu,
+  #home_center_menu.work-main-menu,
+  #home_center_menu.think-main-menu,
+  #home_center_menu.posts-main-menu-move,
+  #home_center_menu.posts-main-menu-work,
+  #home_center_menu.posts-main-menu-live,
+  #home_center_menu.posts-main-menu-think {
+    padding: 15px 0 30px !important;
+  }
+  /* line 1746, ../sass/estilos.scss */
+  #home_center_menu.move-main-menu #menu_left,
+  #home_center_menu.work-main-menu #menu_left,
+  #home_center_menu.think-main-menu #menu_left,
+  #home_center_menu.posts-main-menu-move #menu_left,
+  #home_center_menu.posts-main-menu-work #menu_left,
+  #home_center_menu.posts-main-menu-live #menu_left,
+  #home_center_menu.posts-main-menu-think #menu_left {
+    display: block;
+    width: 80%;
+    margin: 13px auto 13px auto !important;
+    float: none;
+  }
+  /* line 1752, ../sass/estilos.scss */
+  #home_center_menu.move-main-menu #menu_left .page_title,
+  #home_center_menu.work-main-menu #menu_left .page_title,
+  #home_center_menu.think-main-menu #menu_left .page_title,
+  #home_center_menu.posts-main-menu-move #menu_left .page_title,
+  #home_center_menu.posts-main-menu-work #menu_left .page_title,
+  #home_center_menu.posts-main-menu-live #menu_left .page_title,
+  #home_center_menu.posts-main-menu-think #menu_left .page_title {
+    margin: 13px 0 0 0;
+  }
+  /* line 1757, ../sass/estilos.scss */
+  #home_center_menu.move-main-menu .et_pb_module,
+  #home_center_menu.work-main-menu .et_pb_module,
+  #home_center_menu.think-main-menu .et_pb_module,
+  #home_center_menu.posts-main-menu-move .et_pb_module,
+  #home_center_menu.posts-main-menu-work .et_pb_module,
+  #home_center_menu.posts-main-menu-live .et_pb_module,
+  #home_center_menu.posts-main-menu-think .et_pb_module {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto !important;
+  }
+  /* line 1764, ../sass/estilos.scss */
+  #home_center_menu.move-main-menu .et_pb_button.et_pb_module,
+  #home_center_menu.work-main-menu .et_pb_button.et_pb_module,
+  #home_center_menu.think-main-menu .et_pb_button.et_pb_module,
+  #home_center_menu.posts-main-menu-move .et_pb_button.et_pb_module,
+  #home_center_menu.posts-main-menu-work .et_pb_button.et_pb_module,
+  #home_center_menu.posts-main-menu-live .et_pb_button.et_pb_module,
+  #home_center_menu.posts-main-menu-think .et_pb_button.et_pb_module {
+    padding: 7px 11px !important;
+    margin: 11px 0 5px 0 !important;
+    display: block;
+    width: 100%;
+  }
+
+  /* line 1773, ../sass/estilos.scss */
+  #global_post_title {
+    width: 80% !important;
+    margin: 20px auto 0 !important;
+  }
+
+  /* line 1778, ../sass/estilos.scss */
+  #global_post_text {
+    width: 80% !important;
+    margin: 20px auto 0 !important;
+  }
+
+  /* line 1786, ../sass/estilos.scss */
+  .et_pb_row_4.et_pb_row .et_pb_column {
+    width: 80% !important;
+    margin: -20px auto 0 !important;
+    float: none;
+  }
+
+  /* line 1793, ../sass/estilos.scss */
+  #home_center_menu.move-main-menu.MenuStickyHeaderTop.move-main-menu,
+  #home_center_menu.work-main-menu.MenuStickyHeaderTop.work-main-menu,
+  #home_center_menu.think-main-menu.MenuStickyHeaderTop,
+  #home_center_menu.posts-main-menu-move.MenuStickyHeaderTop,
+  #home_center_menu.posts-main-menu-work.MenuStickyHeaderTop,
+  #home_center_menu.posts-main-menu-live.MenuStickyHeaderTop,
+  #home_center_menu.posts-main-menu-think.MenuStickyHeaderTop {
+    padding: 25px 10px 10px !important;
+    text-align: center;
+  }
+  /* line 1807, ../sass/estilos.scss */
+  #home_center_menu.move-main-menu.MenuStickyHeaderTop.move-main-menu #menu_left,
+  #home_center_menu.work-main-menu.MenuStickyHeaderTop.work-main-menu #menu_left,
+  #home_center_menu.think-main-menu.MenuStickyHeaderTop #menu_left,
+  #home_center_menu.posts-main-menu-move.MenuStickyHeaderTop #menu_left,
+  #home_center_menu.posts-main-menu-work.MenuStickyHeaderTop #menu_left,
+  #home_center_menu.posts-main-menu-live.MenuStickyHeaderTop #menu_left,
+  #home_center_menu.posts-main-menu-think.MenuStickyHeaderTop #menu_left {
+    display: none;
+  }
+  /* line 1811, ../sass/estilos.scss */
+  #home_center_menu.move-main-menu.MenuStickyHeaderTop.move-main-menu .et_pb_module,
+  #home_center_menu.work-main-menu.MenuStickyHeaderTop.work-main-menu .et_pb_module,
+  #home_center_menu.think-main-menu.MenuStickyHeaderTop .et_pb_module,
+  #home_center_menu.posts-main-menu-move.MenuStickyHeaderTop .et_pb_module,
+  #home_center_menu.posts-main-menu-work.MenuStickyHeaderTop .et_pb_module,
+  #home_center_menu.posts-main-menu-live.MenuStickyHeaderTop .et_pb_module,
+  #home_center_menu.posts-main-menu-think.MenuStickyHeaderTop .et_pb_module {
+    display: inline-block;
+    width: auto;
+    margin: 0 5px 3px !important;
+  }
+  /* line 1817, ../sass/estilos.scss */
+  #home_center_menu.move-main-menu.MenuStickyHeaderTop.move-main-menu .et_pb_button.et_pb_module,
+  #home_center_menu.work-main-menu.MenuStickyHeaderTop.work-main-menu .et_pb_button.et_pb_module,
+  #home_center_menu.think-main-menu.MenuStickyHeaderTop .et_pb_button.et_pb_module,
+  #home_center_menu.posts-main-menu-move.MenuStickyHeaderTop .et_pb_button.et_pb_module,
+  #home_center_menu.posts-main-menu-work.MenuStickyHeaderTop .et_pb_button.et_pb_module,
+  #home_center_menu.posts-main-menu-live.MenuStickyHeaderTop .et_pb_button.et_pb_module,
+  #home_center_menu.posts-main-menu-think.MenuStickyHeaderTop .et_pb_button.et_pb_module {
+    padding: 8px 7px !important;
+    line-height: 21px !important;
+    margin: 0 7px 7px 0 !important;
+    font-size: 12px;
+    float: none;
+    display: inline-block !important;
+  }
+
+  /* line 1828, ../sass/estilos.scss */
+  .piramide_move, .piramide_live, .piramide_think {
+    margin: -20px auto 40px auto;
+  }
+  /* line 1832, ../sass/estilos.scss */
+  .piramide_move .ondas, .piramide_live .ondas, .piramide_think .ondas {
+    display: none;
+  }
+
+  /* line 1842, ../sass/estilos.scss */
+  #move-powerfully #ordem_block,
+  #live-powerfully #ordem_block,
+  #think_powerfully_page #ordem_block {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+  }
+  
+  
+  .order-lg-1 {    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    box-ordinal-group: 2;
+}
+  .order-md-1 {   -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    box-ordinal-group: 1;
+}
+  
+  /* line 1852, ../sass/estilos.scss */
+   #WorkPowerfully_Fitness  #ordem_block .et_pb_column.et_pb_column_1_2.et_pb_column_0,
+  #workpowerfully_fitness  #ordem_block .et_pb_column.et_pb_column_1_2.et_pb_column_0,
+   #move-powerfully #ordem_block .et_pb_column.et_pb_column_1_2.et_pb_column_0,
+  #live-powerfully #ordem_block .et_pb_column.et_pb_column_1_2.et_pb_column_0,
+  #think_powerfully_page #ordem_block .et_pb_column.et_pb_column_1_2.et_pb_column_0 {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    box-ordinal-group: 2;
+  }
+  /* line 1860, ../sass/estilos.scss */
+  #WorkPowerfully_Fitness ordem_block .et_pb_column.et_pb_column_1_2.et_pb_column_1,
+ #workpowerfully_fitness ordem_block .et_pb_column.et_pb_column_1_2.et_pb_column_1,
+  #move-powerfully #ordem_block .et_pb_column.et_pb_column_1_2.et_pb_column_1,
+  #live-powerfully #ordem_block .et_pb_column.et_pb_column_1_2.et_pb_column_1,
+  #think_powerfully_page #ordem_block .et_pb_column.et_pb_column_1_2.et_pb_column_1 {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    box-ordinal-group: 1;
+  }
+  /* line 1868, ../sass/estilos.scss */
+  #move-powerfully #ordem_block .et_pb_column_1_2,
+  #live-powerfully #ordem_block .et_pb_column_1_2,
+  #think_powerfully_page #ordem_block .et_pb_column_1_2 {
+    padding: 0;
+  }
+/*
+ 
+  #move-powerfully #ordem_block .et_pb_column_1_2 .video_youtube,
+  #live-powerfully #ordem_block .et_pb_column_1_2 .video_youtube,
+  #think_powerfully_page #ordem_block .et_pb_column_1_2 .video_youtube {
+    height: 190px;
+    width: 80%;
+    margin: 15px auto 20px auto !important;
+    display: block;
+  }
+  
+@media only screen and (max-width: 780px){
+  #move-powerfully #ordem_block .et_pb_column_1_2 .video_youtube,
+  #live-powerfully #ordem_block .et_pb_column_1_2 .video_youtube,
+  #think_powerfully #ordem_block .et_pb_column_1_2 .video_youtube {
+    height: 190px;
+    width: 100%!important;
+    margin: 30px auto 20px auto !important;
+    display: block;
+  }
+}  
+
+@media only screen and (max-width: 980px){
+  #think_powerfully_page #ordem_block .et_pb_column_1_2 .video_youtube {
+    height: 190px;
+    width: 80%!important;
+    margin: 30px 0px 20px 35px!important;
+    display: block;
+  }
+} 
+*/
+
+
+  
+  
+  /* line 1876, ../sass/estilos.scss */
+  #move-powerfully #ordem_block .et_pb_column_1_2 .et_pb_text.et_pb_module.et_pb_bg_layout_light.et_pb_text_align_left.et_pb_text_0,
+  #live-powerfully #ordem_block .et_pb_column_1_2 .et_pb_text.et_pb_module.et_pb_bg_layout_light.et_pb_text_align_left.et_pb_text_0,
+  #think_powerfully_page #ordem_block .et_pb_column_1_2 .et_pb_text.et_pb_module.et_pb_bg_layout_light.et_pb_text_align_left.et_pb_text_0 {
+    width: 80%;
+    margin: 0 auto !important;
+    display: block;
+  }
+@media only screen and (max-width: 780px){
+  #move-powerfully #ordem_block .et_pb_column_1_2 .et_pb_text.et_pb_module.et_pb_bg_layout_light.et_pb_text_align_left.et_pb_text_0,
+  #live-powerfully #ordem_block .et_pb_column_1_2 .et_pb_text.et_pb_module.et_pb_bg_layout_light.et_pb_text_align_left.et_pb_text_0,
+  #think_powerfully_page #ordem_block .et_pb_column_1_2 .et_pb_text.et_pb_module.et_pb_bg_layout_light.et_pb_text_align_left.et_pb_text_0 {
+    width: 80%;
+    margin: 40px auto !important;
+    display: block;
+  }
+}  
+  
+  
+
+  /* ******************** CATEGORIES PAGE ******************** */
+}
+@media screen and (max-width: 780px) {
+  /* line 1894, ../sass/estilos.scss */
+  #ordem_block.attivo {
+    margin-bottom: 190px !important;
+  }
+
+  /* line 1899, ../sass/estilos.scss */
+  #ordem_block {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    width: 100%;
+  }
+  /* line 1907, ../sass/estilos.scss */
+  #ordem_block .et_pb_column_1_2 {
+    padding: 0 0 0 0;
+    max-width: 80%;
+    margin: 0 auto !important;
+    text-align: center;
+    float: none;
+  }
+  /* line 1913, ../sass/estilos.scss */
+/*
+  #ordem_block .et_pb_column_1_2 .video_youtube {
+    margin: 20px 0 20px 0;
+  }
+*/
+
+  /* line 1919, ../sass/estilos.scss */
+  #ordem_block .et_pb_column.et_pb_column_1_2.et_pb_column_5 {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    box-ordinal-group: 2;
+    padding: 0 29px;
+    box-sizing: border-box;
+  }
+
+  /* line 1927, ../sass/estilos.scss */
+  #ordem_block .et_pb_column.et_pb_column_1_2.et_pb_column_6 {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    box-ordinal-group: 1;
+    padding: 0 29px;
+    box-sizing: border-box;
+  }
+
+  /* line 1935, ../sass/estilos.scss */
+  #main-header.stickedSidebarLeft .logo_container {
+    display: none;
+  }
+
+  /* line 1939, ../sass/estilos.scss */
+  #categorias-menu {
+    min-width: 80%;
+  }
+
+  /* line 1943, ../sass/estilos.scss */
+  .home.page-template-default.page #et-main-area {
+    margin-left: 0 !important;
+  }
+
+  /* line 1947, ../sass/estilos.scss */
+  h1.tagLine span strong span, h1.tagLine span span strong, h1.tagLine span strong, h1.tagLine span strong span {
+    font-size: 38px !important;
+    line-height: 40px;
+  }
+
+  /* line 1952, ../sass/estilos.scss */
+  h4 span strong {
+    font-size: 22px !important;
+    line-height: 27px;
+  }
+
+  /* line 1957, ../sass/estilos.scss */
+  #main-header {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  /* line 1962, ../sass/estilos.scss */
+  #main-header:hover {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  /* line 1967, ../sass/estilos.scss */
+  #categorias-menu {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+  }
+
+  /* line 1974, ../sass/estilos.scss */
+  #categorias-menu .et_pb_column {
+    margin: 0 0 17px 0 !important;
+  }
+
+  /* ******************** CATEGORIES PAGE ******************** */
+  /* line 1981, ../sass/estilos.scss */
+  #legenda_live_3,
+  #legenda_live_4,
+  #legenda_live_2,
+  #legenda_live_1 {
+    color: #55b1b1 !important;
+  }
+
+  /* line 1989, ../sass/estilos.scss */
+  #legenda_think_1,
+  #legenda_think_2,
+  #legenda_think_3,
+  #legenda_think_4 {
+    color: #ab40ab !important;
+  }
+
+  /* line 1997, ../sass/estilos.scss */
+  .piramide_move,
+  .piramide_live,
+  .piramide_think {
+ 
+    height: auto !important;
+    margin: 20px auto 0 auto !important;
+    -webkit-animation: none;
+    animation: none;
+  }
+
+
+
+
+#ordem_block {
+	padding:0px;}
+@media only screen and (max-width:780px){
+  .piramide_move,
+  .piramide_live,
+  .piramide_think {
+   
+padding-top: 0px !important;
+margin-top: -30px !important;
+width:100% !important;
+max-width: 450px !important;
+  }
+  .linha a {max-width: 100% !important; }
+}
+
+
+  /* line 2009, ../sass/estilos.scss */
+  #think_powerfully_page #ordem_block {
+    margin: 0 0 30px 0;
+  }
+
+  /* line 2013, ../sass/estilos.scss */
+  .piramide_live,
+  .piramide_think {
+    padding: 0px 0 46px 0 !important;
+  }
+
+  /* line 2023, ../sass/estilos.scss */
+  #move-powerfully .et_pb_row,
+  #live-powerfully .et_pb_row,
+  #think_powerfully_page .et_pb_row {
+    width: 100%;
+  }
+  /* line 2025, ../sass/estilos.scss */
+  #move-powerfully .et_pb_row article,
+  #live-powerfully .et_pb_row article,
+  #think_powerfully_page .et_pb_row article {
+    margin-bottom: 0 !important;
+  }
+
+  /* line 2031, ../sass/estilos.scss */
+  #category_big_cta {
+    padding: 92px 9% !important;
+  }
+  /* line 2033, ../sass/estilos.scss */
+  #category_big_cta .become_btn {
+    width: 100%;
+  }
+
+
+  /* ******************** CATEGORIES PAGE ******************** */
+}
+
+@media screen and (max-width: 479px) {
+  /* line 2046, ../sass/estilos.scss */
+  #category_big_cta .become_btn {
+    background-size: 25px !important;
+    padding: 10px 15px 10px 0px;
+    font-size: 15px;
+  }
+
+  /* line 2053, ../sass/estilos.scss */
+  #categorias-menu .et_pb_column a {
+    width: 100%;
+  }
+}
+/* ************************* Responsive AQUI ************************* */
+@media screen and (min-width: 980px) {
+
+/* line 793, ../sass/estilos.scss */
+.home.page-template-default.page #et-main-area {
+   margin-left: 60px !important; 
+}
+
+}
+
+
+.logo_menu_item {
+    background: none;
+    border-radius: 6px;
+    padding: 1px 10px 3px 10px;
+    font-size: 22px;
+    line-height: 25px;
+    margin: 0 6px;
+    border: solid 2px #fefe01;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+
+.et_pb_row_0, body #page-container .et-db #et-boc .et-l .et_pb_row_0.et_pb_row, body.et_pb_pagebuilder_layout.single #page-container #et-boc .et-l .et_pb_row_0.et_pb_row, body.et_pb_pagebuilder_layout.single.et_full_width_page #page-container #et-boc .et-l .et_pb_row_0.et_pb_row {
+ width: 100%; 
+ max-width: 100%; 
+}
+
+}
